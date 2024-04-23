@@ -1,0 +1,87 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: white;
+    color: #0e0202;
+  }
+  
+  .logo-container {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-img {
+    height: 40px;
+    margin-right: 10px;
+  }
+  
+  .company-name {
+    font-size: 44px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+  }
+  
+  .menu-container {
+    display: flex;
+  }
+  
+  .menu-button {
+    background: none;
+    border: none;
+    color: #020101;
+    cursor: pointer;
+    font-size: 31px;
+    padding: 5px 10px;
+    margin-left: 10px;
+  }
+  
+  .cart-count {
+    background-color: red;
+    color: rgb(11, 11, 11);
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    margin-top: -10px;
+    margin-left: -50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  /* Media query for mobile view */
+  @media screen and (max-width: 768px) {
+    .header {
+      flex-direction: row;
+      text-align: center;
+      padding: 5px 5px;
+    }
+  
+    .company-name {
+        font-size: 24px;
+    }
+    
+  
+    .menu-button {
+      color: rgb(10, 10, 32);
+      padding: 5px;
+      font-size: 18px;
+      text-decoration: none;
+    }
+    .cart-count {
+        background-color: red;
+        color: rgb(11, 11, 11);
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        margin-top: -10px;
+        margin-left: -50px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 14px;
+      }
+  }
+  
