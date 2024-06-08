@@ -1,6 +1,7 @@
 # Plant Health Classification
 
 This project provides plant health information through leaf images by using a deep neural network, specifically a Convolutional Neural Network (CNN). The model takes an image of a leaf as input and classifies it as either healthy, affected by leaf mold, or affected by late blight.
+
 ![35ecfe6c-c8a0-482d-a058-4de80798b9e5](https://github.com/Gauravhcu2022/DISEASEDETECT/assets/140634022/c9706b00-e766-4248-ad87-cf4aa2df77da)
 
 
