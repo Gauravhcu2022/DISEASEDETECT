@@ -21,3 +21,11 @@ This was a college project completed by a team of two members. My role involved 
 1. Clone the repository:
    ```bash
    git clone https://github.com/yourusername/plant-health-classification.git
+   
+2. Navigate to the project directory:
+   ```bash
+   cd plant-health-classification
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+
