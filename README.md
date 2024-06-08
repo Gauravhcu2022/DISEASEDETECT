@@ -10,7 +10,6 @@ This project provides plant health information through leaf images by using a de
 - [Model Details](#model-details)
 - [Screenshots](#screenshots)
 - [Contributing](#contributing)
-- [License](#license)
 
 ## Description
 
@@ -20,7 +19,7 @@ This was a college project completed by a team of two members. My role involved 
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/plant-health-classification.git
+   git clone https://github.com/Gauravhcu2022/DISEASEDETECT.git
    
 2. Navigate to the project directory:
    ```bash
@@ -36,7 +35,7 @@ This was a college project completed by a team of two members. My role involved 
    python train_model.py
 3. To classify a new image, use the classification script:
    ```bash
-   python classify_image.py --image_path path/to/image.jpg
+   python classify_image.py path/to/image.jpg
 
 ## Model Details
 1. Architecture: Convolutional Neural Network (CNN)
@@ -55,7 +54,9 @@ This was a college project completed by a team of two members. My role involved 
 2. The activation function ReLU was used to handle maximum colored pixels effectively.
 
 ## Screenshots
+![35ecfe6c-c8a0-482d-a058-4de80798b9e5](https://github.com/Gauravhcu2022/DISEASEDETECT/assets/140634022/e144b458-48b5-4255-9649-05c298adb0b4)
 
+![Screenshot 2024-06-08 222202](https://github.com/Gauravhcu2022/DISEASEDETECT/assets/140634022/9b4ac1d9-dd27-45b0-9dea-d1310f859741)
 
 
 ## Contributing
