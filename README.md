@@ -39,20 +39,20 @@ This was a college project completed by a team of two members. My role involved 
    python classify_image.py --image_path path/to/image.jpg
 
 ## Model Details
-Architecture: Convolutional Neural Network (CNN)
-Framework: TensorFlow
-Libraries: NumPy
+1. Architecture: Convolutional Neural Network (CNN)
+2. Framework: TensorFlow
+3. Libraries: NumPy
 
 ## Hyperparameters
-Kernel/Filter Size: 3x3
-Number of Kernels: 64
-Pooling Size: 6x6
-Learning Rate (alpha): 0.01
-Activation Function: ReLU (Rectified Linear Unit)
+1. Kernel/Filter Size: 3x3
+2. Number of Kernels: 64
+3. Pooling Size: 6x6
+4. Learning Rate (alpha): 0.01
+5. Activation Function: ReLU (Rectified Linear Unit)
 
 ## Training
-The model was trained by fine-tuning parameters such as the learning rate and epoch size to minimize loss through gradient descent.
-The activation function ReLU was used to handle maximum colored pixels effectively.
+1. The model was trained by fine-tuning parameters such as the learning rate and epoch size to minimize loss through gradient descent.
+2. The activation function ReLU was used to handle maximum colored pixels effectively.
 
 ## Screenshots
 
